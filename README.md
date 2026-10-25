@@ -40,7 +40,7 @@ Les empreintes sont reprises dans [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Jouer
 - **Écran titre** : Gauche/Droite pour choisir le stage, Start pour jouer, Select pour CONFIG (inchangé).
-- **Émulateurs** : validé sous **Mesen 2.2.1**. SA-1 Root est annoncé compatible avec bsnes, Snes9x et le matériel réel (SD2SNES/FXPAK, cartouche SA-1). Ces derniers n'ont pas encore été testés avec Retro Rework.
+- **Tests** : je dispose de la validation sous **Mesen 2.2.1** et j'ai effectué un **test rapide concluant sur ma Super Nintendo réelle le 25 octobre 2026**. Ce test ne constitue pas une validation exhaustive de toutes les configurations matérielles. bsnes et Snes9x n'ont pas été testés avec Retro Rework ; je ne généralise pas ce résultat à tous les modèles de consoles, cartouches et adaptateurs.
 - Le jeu requiert **32 Ko de BW-RAM** (en-tête SA-1 standard, géré par les émulateurs compatibles).
 - **Non compatible** : versions européenne et japonaise, ZSNES.
 
@@ -82,7 +82,7 @@ Checksums are also listed in [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Playing
 - **Title screen**: Left/Right to choose the stage, Start to play, Select for CONFIG (unchanged).
-- **Emulators**: validated on **Mesen 2.2.1**. SA-1 Root is stated to work on bsnes, Snes9x and real hardware (SD2SNES/FXPAK, SA-1 cartridge); these have not been tested with Retro Rework yet.
+- **Tests**: I have validation on **Mesen 2.2.1** and performed a **successful quick test on my real Super Nintendo on October 25, 2026**. This is not exhaustive validation of all hardware configurations. bsnes and Snes9x have not been tested with Retro Rework; I do not generalize this result to every console model, cartridge or adapter.
 - The game requires **32 KB of BW-RAM** (standard SA-1 header, handled by compatible emulators).
 - **Not compatible**: European and Japanese versions, ZSNES.
 
