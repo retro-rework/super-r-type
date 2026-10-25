@@ -1,30 +1,17 @@
-# État de distribution / Distribution status
+# Distribution v1.0 / v1.0 distribution
 
-## Français
+Je distribue un seul patch cumulatif : **ROM originale USA → Retro Rework v1.0**, avec SA-1 Root v1.3 inclus. Je ne fournis aucune ROM. / I distribute a single cumulative patch: **original USA ROM → Retro Rework v1.0**, including SA-1 Root v1.3. I do not provide ROMs.
 
-Je prépare un seul patch cumulatif. Sa réception et sa vérification restent nécessaires avant de proposer une installation en une opération.
+- [Instructions actuelles / Current instructions](../README.md)
+- [Patch BPS / BPS patch](../patches/Super-R-Type-Retro-Rework-v1.0.bps)
+- [Empreintes / Checksums](../CHECKSUMS.sha256)
+- [Validation du paquet cumulatif par Claude / Claude's cumulative-package validation](VALIDATION.md)
+- [Crédits / Credits](../CREDITS.md)
 
-Les documents [INSTALLATION-SOURCE.md](INSTALLATION-SOURCE.md) et [VALIDATION-SOURCE.md](VALIDATION-SOURCE.md) sont conservés comme traces du paquet reçu. Ils décrivent **deux étapes**, et ne constituent pas les instructions finales de la distribution cumulative. Les liens relatifs du document d'installation ont été adaptés à cette arborescence ; ses empreintes sont conservées dans CHECKSUMS-SOURCE.sha256.
+Le dépôt reste privé pendant la revue. La Release v1.0 est préparée en brouillon et ne constitue pas encore une publication publique. / I keep the repository private during review. The v1.0 release is being prepared as a draft, not a public release.
 
-### Contrôle du fichier reçu le 25 octobre 2026
+## Archives du premier paquet / Initial-package archives
 
-- Nom : `Super-R-Type-Retro-Rework-v1.0.bps`.
-- Taille : 1 078 octets ; signature BPS1.
-- SHA-256 : `aecba31ee87182ec6500467773510a5533b4ca7b2c6400f94141300f7034c825`.
-- CRC32 source inscrit dans le BPS : `0D73E7D3` (ROM déjà modifiée avec SA-1 Root).
-- CRC32 cible inscrit dans le BPS : `36CBF8CA`.
-- CRC32 de la ROM originale USA : `8B22C830`, différent de la source exigée.
+Je conserve les fichiers `INSTALLATION-SOURCE.md`, `VALIDATION-SOURCE.md` et `CHECKSUMS-SOURCE.sha256` pour documenter le premier paquet incrémental. Ils décrivent une ancienne installation en deux étapes, **remplacée par le patch cumulatif actuel**. Ne les utilisez pas pour installer cette version. Le patch incrémental n'est pas distribué dans ce dépôt.
 
-Je ne présente donc pas ce fichier comme un patch cumulatif. Je conserve le rapport de validation d'origine, qui constate également le refus du patch sur la ROM originale.
-
-Je n'ai modifié ni ROM ni code de jeu, et je n'ai recréé aucun patch. Le dossier prévu pour le dépôt contient uniquement des documents Markdown ; aucune ROM ni donnée personnelle n'y est incluse.
-
-## English
-
-I am preparing a single cumulative patch. I still need to receive and verify that file before providing a one-operation installation.
-
-I preserve INSTALLATION-SOURCE.md and VALIDATION-SOURCE.md as records of the supplied package. They describe **two steps**, rather than final cumulative-patch instructions. I have adapted its relative installation-document links to this layout; its checksums are preserved in CHECKSUMS-SOURCE.sha256.
-
-The supplied 1,078-byte BPS file has source CRC32 `0D73E7D3` (already SA-1-patched ROM), whereas the original USA ROM has CRC32 `8B22C830`. Its SHA-256 is `aecba31ee87182ec6500467773510a5533b4ca7b2c6400f94141300f7034c825`, and its target CRC32 is `36CBF8CA`.
-
-I therefore do not present it as a cumulative patch. I have not modified any ROM or game code, or recreated a patch. The proposed repository contains Markdown documents only, with no ROM or personal data.
+I retain `INSTALLATION-SOURCE.md`, `VALIDATION-SOURCE.md` and `CHECKSUMS-SOURCE.sha256` to document the initial add-on package. They describe an old two-step installation, **superseded by the current cumulative patch**. Do not use them to install this release. I do not distribute the add-on patch in this repository.
