@@ -2,7 +2,11 @@
 
 ## v1.0
 
-Base: Super R-Type (USA) + SA-1 Root v1.3 (Vitor Vilela). All SA-1 Root code is kept unchanged.
+Patch for Super R-Type (USA). Includes SA-1 Root v1.3 (Vitor Vilela), whose code is kept unchanged.
+
+### Distribution
+- FR : patch unique, appliqué directement à la ROM USA originale (SA-1 Root inclus). Remplace le patch en deux étapes du 2026-10-25, archivé.
+- EN: single patch applied directly to the original USA ROM (SA-1 Root included). Replaces the two-step patch of 2026-10-25 (archived).
 
 ### Ajouts / Additions
 - **Respawn sur place / On-the-spot respawn**
