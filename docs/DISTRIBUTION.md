@@ -8,7 +8,10 @@ Je distribue un seul patch cumulatif : **ROM originale USA → Retro Rework v1.0
 - [Validation du paquet cumulatif par Claude / Claude's cumulative-package validation](VALIDATION.md)
 - [Crédits / Credits](../CREDITS.md)
 
-Le dépôt reste privé pendant la revue. La Release v1.0 est préparée en brouillon et ne constitue pas encore une publication publique. / I keep the repository private during review. The v1.0 release is being prepared as a draft, not a public release.
+Je publie la v1.0 le 25 octobre 2026 : le dépôt est public et la Release est publiée. / I published v1.0 on October 25, 2026: the repository and release are public.
+
+- [Release officielle / Official release](https://github.com/retro-rework/super-r-type/releases/tag/v1.0)
+- [Télécharger le patch cumulatif / Download the cumulative patch](https://github.com/retro-rework/super-r-type/releases/download/v1.0/Super-R-Type-Retro-Rework-v1.0.bps)
 
 ## Archives du premier paquet / Initial-package archives
 
