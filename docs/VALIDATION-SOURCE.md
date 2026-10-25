@@ -1,3 +1,5 @@
+> **Archive antérieure au test sur console réelle.** Pour l’état actuel : le 25 octobre 2026, j’ai effectué un test rapide concluant sur ma SNES réelle, sans validation exhaustive des configurations. Voir [la validation actuelle](VALIDATION.md). / **Archive predating the real-hardware test.** I performed a successful quick test on my real SNES on October 25, 2026, without exhaustive hardware validation. See [the current validation](VALIDATION.md).
+
 # Validation — Super R-Type Retro Rework v1.0 (paquet de distribution)
 
 Date : 2026-10-25. Vérifications faites sur des copies, sans modifier ORIGINAL ni STABLE.

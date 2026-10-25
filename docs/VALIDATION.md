@@ -26,6 +26,8 @@ Date : 2026-10-25. Vérifications faites sur des copies, sans modifier ORIGINAL,
 
 ## Limites
 - **Application vérifiée avec l'outil BPS de Retro Rework** (`RELEASE_PREP/tools/bps.js`), validé sur le patch BPS officiel de SA-1 Root. Les outils tiers (Flips, Rom Patcher JS, beat) n'ont pas été essayés ici.
-- Testé uniquement sous Mesen 2.2.1. bsnes, Snes9x et le matériel réel ne sont pas testés.
+- Validation logicielle sous Mesen 2.2.1. bsnes et Snes9x ne sont pas testés.
+- Le 25 octobre 2026, j'ai effectué un **test rapide concluant sur ma Super Nintendo réelle**. Ce résultat est mon retour de test manuel, distinct des vérifications de Claude ci-dessus. Il ne constitue pas une validation exhaustive de toutes les configurations matérielles (modèles de consoles, cartouches ou adaptateurs).
+- On October 25, 2026, I performed a **successful quick test on my real Super Nintendo**. This is my reported manual hardware test, separate from Claude's checks above, not exhaustive validation of every hardware configuration. bsnes and Snes9x remain untested.
 - Seule la version USA est prise en charge.
 - **Droits** : le dépôt SA-1 Root ne publie pas de licence. Ce patch redistribue le travail de Vitor Vilela, crédité dans `CREDITS.md`. La distribution cumulative a été décidée par l'équipe Retro Rework ; une autorisation de l'auteur est recommandée avant toute publication publique.
