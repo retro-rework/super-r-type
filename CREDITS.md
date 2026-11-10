@@ -16,11 +16,11 @@
   - Erivando_BR (trace logs);
   - kccheng (testing);
   - and his patrons, especially Isstanar and st01014.
-- FR : le patch Retro Rework v1.0 **contient** les modifications SA-1 Root v1.3 (version USA). Il s'applique donc directement à la ROM originale. Tout le mérite de l'accélération SA-1 revient à Vitor Vilela.
-- EN: the Retro Rework v1.0 patch **contains** the SA-1 Root v1.3 changes (USA version), so it applies directly to the original ROM. All credit for the SA-1 acceleration goes to Vitor Vilela.
+- FR : le patch Retro Rework v1.1 **contient** les modifications SA-1 Root v1.3 (version USA). Il s'applique donc directement à la ROM originale. Tout le mérite de l'accélération SA-1 revient à Vitor Vilela.
+- EN: the Retro Rework v1.1 patch **contains** the SA-1 Root v1.3 changes (USA version), so it applies directly to the original ROM. All credit for the SA-1 acceleration goes to Vitor Vilela.
 
 ## Retro Rework
-Je définis les modifications, dirige le développement et réalise mes tests sous le nom **Retro Rework**, avec l'aide d'outils d'intelligence artificielle, notamment **Claude Code** pour la préparation et la validation rapportée de la v1.0. / I define the changes, direct development and perform my tests as **Retro Rework**, assisted by AI tools, including **Claude Code** for v1.0 preparation and reported validation.
+Je définis les modifications, dirige le développement et réalise mes tests sous le nom **Retro Rework**, avec l'aide d'outils d'intelligence artificielle, notamment **Claude Code** pour la préparation et la validation rapportée des v1.0 et v1.1. / I define the changes, direct development and perform my tests as **Retro Rework**, assisted by AI tools, including **Claude Code** for v1.0 and v1.1 preparation and reported validation.
 
 ## Outils / Tools
 - **Mesen 2** (validation and debugging): https://www.mesen.ca

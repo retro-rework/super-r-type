@@ -1,3 +1,12 @@
+# Distribution v1.1 / v1.1 distribution
+
+Je distribue un seul patch cumulatif : **ROM originale USA → Retro Rework v1.1**, avec SA-1 Root v1.3 inclus. La v1.1 ajoute la sauvegarde du record et son affichage sur l'écran titre. Je ne fournis aucune ROM. / I distribute a single cumulative patch: **original USA ROM → Retro Rework v1.1**, including SA-1 Root v1.3. v1.1 adds the saved high score and its display on the title screen. I do not provide ROMs.
+
+- [Patch BPS v1.1 / v1.1 BPS patch](../patches/Super-R-Type-Retro-Rework-v1.1.bps)
+- [Validation v1.1](VALIDATION-v1.1.md)
+
+---
+
 # Distribution v1.0 / v1.0 distribution
 
 Je distribue un seul patch cumulatif : **ROM originale USA → Retro Rework v1.0**, avec SA-1 Root v1.3 inclus. Je ne fournis aucune ROM. / I distribute a single cumulative patch: **original USA ROM → Retro Rework v1.0**, including SA-1 Root v1.3. I do not provide ROMs.

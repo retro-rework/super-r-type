@@ -1,5 +1,27 @@
 # Changelog — Super R-Type Retro Rework
 
+## v1.1
+
+Patch pour Super R-Type (USA). Inclut SA-1 Root v1.3 (Vitor Vilela), dont le code n'est pas modifié. / Patch for Super R-Type (USA). Includes SA-1 Root v1.3 (Vitor Vilela), whose code is unchanged.
+
+### Ajouts / Additions
+- **Record sauvegardé / Saved high score**
+  - FR :
+    - Le meilleur score (HI-SCORE du jeu) est conservé quand on éteint la console, dans la BW-RAM sur pile déjà déclarée par SA-1 Root.
+    - Une signature et une somme de contrôle protègent la sauvegarde : si elle est vide ou abîmée, le record repart de 0, comme dans le jeu d'origine.
+    - Le record est enregistré dès qu'il est battu.
+  - EN:
+    - The best score (the game's HI-SCORE) is kept after power-off, in the battery-backed BW-RAM already declared by SA-1 Root.
+    - A signature and checksum protect the save: if it is empty or damaged, the high score starts from 0, as in the original game.
+    - The high score is saved as soon as it is beaten.
+- **HI-SCORE sur l'écran titre / HI-SCORE on the title screen**
+  - FR : ligne « HI-SCORE » en haut de l'écran titre, dans le style de l'écran CONTINUE. Elle est masquée dans CONFIG. Le jeu d'origine n'affichait le record que sur l'écran CONTINUE.
+  - EN: "HI-SCORE" line at the top of the title screen, in the CONTINUE screen style. It is hidden in CONFIG. The original game only showed the high score on the CONTINUE screen.
+
+### Inchangé / Unchanged
+- FR : tout le contenu de la v1.0 (SA-1 Root, respawn sur place, Stage Select).
+- EN: everything from v1.0 (SA-1 Root, on-the-spot respawn, Stage Select).
+
 ## v1.0
 
 Patch for Super R-Type (USA). Includes SA-1 Root v1.3 (Vitor Vilela), whose code is kept unchanged.

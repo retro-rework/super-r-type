@@ -1,4 +1,4 @@
-# Super R-Type — Retro Rework v1.0
+# Super R-Type — Retro Rework v1.1
 
 *[Français](#français) · [English](#english)*
 
@@ -10,7 +10,8 @@ Avec **Retro Rework**, je revisite Super R-Type (Super Nintendo, Irem, 1991). Je
 
 Mon patch **inclut l'accélération SA-1 Root v1.3 de Vitor Vilela**, qui supprime les ralentissements du jeu d'origine. J'ajoute aussi :
 - **un respawn sur place** : après une perte de vie, le vaisseau réapparaît là où il a été détruit, sans retour au point de contrôle ;
-- **un Stage Select dans le menu principal** : `< STAGE 1 >` à `< STAGE 7 >`, réglable avec Gauche/Droite sur l'écran titre.
+- **un Stage Select dans le menu principal** : `< STAGE 1 >` à `< STAGE 7 >`, réglable avec Gauche/Droite sur l'écran titre ;
+- **un record sauvegardé** (nouveau en v1.1) : le meilleur score est conservé même console éteinte, et affiché en haut de l'écran titre (« HI-SCORE »).
 
 Le détail est dans [CHANGELOG.md](CHANGELOG.md).
 
@@ -20,16 +21,16 @@ Le détail est dans [CHANGELOG.md](CHANGELOG.md).
 1. **Votre ROM Super R-Type (USA) originale**, sans en-tête (1 048 576 octets) :
    - SHA-256 `05c7f6461209020785fba33007e1830820aa44ada4b1a6f991d936bf2335b15b`
    - CRC32 `8B22C830`
-2. **Mon patch cumulatif unique** : [Super-R-Type-Retro-Rework-v1.0.bps](patches/Super-R-Type-Retro-Rework-v1.0.bps) (ouvrir le fichier puis utiliser le bouton de téléchargement). SA-1 Root est déjà inclus ; ne l'appliquez pas séparément.
+2. **Mon patch cumulatif unique** : [Super-R-Type-Retro-Rework-v1.1.bps](patches/Super-R-Type-Retro-Rework-v1.1.bps) (ouvrir le fichier puis utiliser le bouton de téléchargement). SA-1 Root est déjà inclus ; ne l'appliquez pas séparément.
 3. **Un outil d'application de patch BPS**, par exemple :
    - [Flips](https://sneslab.net/tools/floating.zip) ;
    - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (dans le navigateur) ;
    - [beat](https://www.romhacking.net/utilities/893/).
 
 ### Installation (une seule étape)
-Appliquez `Super-R-Type-Retro-Rework-v1.0.bps` à votre ROM Super R-Type (USA) originale.
+Appliquez `Super-R-Type-Retro-Rework-v1.1.bps` à votre ROM Super R-Type (USA) originale.
 
-Le résultat doit avoir le SHA-256 `0a5b3a784a0cceffeaf954812235341c8d3bb93b304158547ebb8347ab14257e` (CRC32 `36CBF8CA`).
+Le résultat doit avoir le SHA-256 `c3a02dfdd5ea37f5a3b77684c91cc57a3e8d1d76b11011f8fcdda89853d4707d` (CRC32 `1FE560DD`).
 
 Le format BPS vérifie la ROM d'entrée. Si l'outil refuse le patch, la ROM n'est pas la bonne :
 - version européenne ou japonaise ;
@@ -40,8 +41,8 @@ Les empreintes sont reprises dans [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Jouer
 - **Écran titre** : Gauche/Droite pour choisir le stage, Start pour jouer, Select pour CONFIG (inchangé).
-- **Tests** : je dispose de la validation sous **Mesen 2.2.1** et j'ai effectué un **test rapide concluant sur ma Super Nintendo réelle le 25 octobre 2026**. Ce test ne constitue pas une validation exhaustive de toutes les configurations matérielles. bsnes et Snes9x n'ont pas été testés avec Retro Rework ; je ne généralise pas ce résultat à tous les modèles de consoles, cartouches et adaptateurs.
-- Le jeu requiert **32 Ko de BW-RAM** (en-tête SA-1 standard, géré par les émulateurs compatibles).
+- **Tests** : je dispose de la validation sous **Mesen 2.2.1** et j'ai effectué un **test rapide concluant de la v1.0 sur ma Super Nintendo réelle le 25 octobre 2026**. La v1.1 (sauvegarde du record) est validée sous Mesen. Ce test ne constitue pas une validation exhaustive de toutes les configurations matérielles. bsnes et Snes9x n'ont pas été testés avec Retro Rework ; je ne généralise pas ce résultat à tous les modèles de consoles, cartouches et adaptateurs.
+- Le jeu requiert **32 Ko de BW-RAM sur pile** (en-tête SA-1 standard, géré par les émulateurs compatibles). Le record y est sauvegardé ; en émulateur, il va dans le fichier `.srm`.
 - **Non compatible** : versions européenne et japonaise, ZSNES.
 
 ---
@@ -52,7 +53,8 @@ With **Retro Rework**, I revisit Super R-Type (Super Nintendo, Irem, 1991). I ru
 
 My patch **includes Vitor Vilela's SA-1 Root v1.3 acceleration**, which removes the original game's slowdown. I also add:
 - **on-the-spot respawn**: after losing a life, your ship reappears where it was destroyed instead of going back to the checkpoint;
-- **a main-menu Stage Select**: `< STAGE 1 >` to `< STAGE 7 >`, changed with Left/Right on the title screen.
+- **a main-menu Stage Select**: `< STAGE 1 >` to `< STAGE 7 >`, changed with Left/Right on the title screen;
+- **a saved high score** (new in v1.1): your best score is kept even after power-off and shown at the top of the title screen ("HI-SCORE").
 
 See [CHANGELOG.md](CHANGELOG.md) for details.
 
@@ -62,16 +64,16 @@ See [CHANGELOG.md](CHANGELOG.md) for details.
 1. **Your original Super R-Type (USA) ROM**, unheadered (1,048,576 bytes):
    - SHA-256 `05c7f6461209020785fba33007e1830820aa44ada4b1a6f991d936bf2335b15b`
    - CRC32 `8B22C830`
-2. **My single cumulative patch**: [Super-R-Type-Retro-Rework-v1.0.bps](patches/Super-R-Type-Retro-Rework-v1.0.bps) (open the file, then use the download button). SA-1 Root is already included; do not apply it separately.
+2. **My single cumulative patch**: [Super-R-Type-Retro-Rework-v1.1.bps](patches/Super-R-Type-Retro-Rework-v1.1.bps) (open the file, then use the download button). SA-1 Root is already included; do not apply it separately.
 3. **A BPS patching tool**, for example:
    - [Flips](https://sneslab.net/tools/floating.zip);
    - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (in your browser);
    - [beat](https://www.romhacking.net/utilities/893/).
 
 ### Installation (one step)
-Apply `Super-R-Type-Retro-Rework-v1.0.bps` to your original Super R-Type (USA) ROM.
+Apply `Super-R-Type-Retro-Rework-v1.1.bps` to your original Super R-Type (USA) ROM.
 
-The result must have SHA-256 `0a5b3a784a0cceffeaf954812235341c8d3bb93b304158547ebb8347ab14257e` (CRC32 `36CBF8CA`).
+The result must have SHA-256 `c3a02dfdd5ea37f5a3b77684c91cc57a3e8d1d76b11011f8fcdda89853d4707d` (CRC32 `1FE560DD`).
 
 BPS checks the input ROM. If your tool rejects the patch, the ROM is not the right one:
 - European or Japanese version;
@@ -82,8 +84,8 @@ Checksums are also listed in [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Playing
 - **Title screen**: Left/Right to choose the stage, Start to play, Select for CONFIG (unchanged).
-- **Tests**: I have validation on **Mesen 2.2.1** and performed a **successful quick test on my real Super Nintendo on October 25, 2026**. This is not exhaustive validation of all hardware configurations. bsnes and Snes9x have not been tested with Retro Rework; I do not generalize this result to every console model, cartridge or adapter.
-- The game requires **32 KB of BW-RAM** (standard SA-1 header, handled by compatible emulators).
+- **Tests**: I have validation on **Mesen 2.2.1** and performed a **successful quick test of v1.0 on my real Super Nintendo on October 25, 2026**. v1.1 (saved high score) is validated on Mesen. This is not exhaustive validation of all hardware configurations. bsnes and Snes9x have not been tested with Retro Rework; I do not generalize this result to every console model, cartridge or adapter.
+- The game requires **32 KB of battery-backed BW-RAM** (standard SA-1 header, handled by compatible emulators). The high score is saved there; on emulators it goes to the `.srm` file.
 - **Not compatible**: European and Japanese versions, ZSNES.
 
 ---
