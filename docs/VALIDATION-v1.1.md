@@ -22,6 +22,7 @@ Date : 2026-11-10. Vérifications faites sur des copies, sans modifier ORIGINAL,
 - **Rapport :** `AI REPORTS/2026-11-10_Claude_HiScore_Sauvegarde.md`.
 
 ## Limites
-- Testé sous Mesen uniquement. bsnes, Snes9x, le matériel réel et les cartouches flash ne sont pas testés.
+- Testé sous Mesen, et par le créateur sur Super Nintendo réelle avec SD2SNES. bsnes, Snes9x et les autres cartouches flash ne sont pas testés.
+- SD2SNES (complément du 2026-11-12) : avec un firmware modifié (sd2snes+ 2.16.1) et « In-game hook » activé, une bande du décor du stage 1 apparaît décalée. Le défaut existe aussi avec les ROM USA et JP d'origine, et disparaît quand l'option est désactivée. D'après son auteur, le firmware officiel à jour corrige ce cas.
 - Seule la version USA est prise en charge.
 - **Droits :** comme pour la v1.0, ce patch redistribue le travail SA-1 Root de Vitor Vilela, crédité dans `CREDITS.md`.

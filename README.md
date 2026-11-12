@@ -41,7 +41,8 @@ Les empreintes sont reprises dans [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Jouer
 - **Écran titre** : Gauche/Droite pour choisir le stage, Start pour jouer, Select pour CONFIG (inchangé).
-- **Tests** : je dispose de la validation sous **Mesen 2.2.1** et j'ai effectué un **test rapide concluant de la v1.0 sur ma Super Nintendo réelle le 25 octobre 2026**. La v1.1 (sauvegarde du record) est validée sous Mesen. Ce test ne constitue pas une validation exhaustive de toutes les configurations matérielles. bsnes et Snes9x n'ont pas été testés avec Retro Rework ; je ne généralise pas ce résultat à tous les modèles de consoles, cartouches et adaptateurs.
+- **Tests** : je teste le jeu sur **ma Super Nintendo réelle avec un SD2SNES**, et il est validé sous l'émulateur **Mesen 2.2.1**. Ces tests ne couvrent pas tous les modèles de consoles, cartouches et adaptateurs. bsnes et Snes9x n'ont pas été testés avec Retro Rework.
+- **SD2SNES / FXPAK** : utilisez le **firmware officiel à jour**. D'après son auteur, il corrige le comportement de l'option **« In-game hook »** pour ce jeu. Avec un firmware officiel ancien ou un firmware modifié (par exemple sd2snes+), désactivez « In-game hook » (menu Configuration → In-game settings) : sinon, une bande horizontale du décor (la planète du stage 1, par exemple) peut apparaître décalée. Ce défaut touche aussi les versions USA et japonaise d'origine : il ne vient pas de mon patch.
 - Le jeu requiert **32 Ko de BW-RAM sur pile** (en-tête SA-1 standard, géré par les émulateurs compatibles). Le record y est sauvegardé ; en émulateur, il va dans le fichier `.srm`.
 - **Non compatible** : versions européenne et japonaise, ZSNES.
 
@@ -84,7 +85,8 @@ Checksums are also listed in [CHECKSUMS.sha256](CHECKSUMS.sha256).
 
 ### Playing
 - **Title screen**: Left/Right to choose the stage, Start to play, Select for CONFIG (unchanged).
-- **Tests**: I have validation on **Mesen 2.2.1** and performed a **successful quick test of v1.0 on my real Super Nintendo on October 25, 2026**. v1.1 (saved high score) is validated on Mesen. This is not exhaustive validation of all hardware configurations. bsnes and Snes9x have not been tested with Retro Rework; I do not generalize this result to every console model, cartridge or adapter.
+- **Tests**: I test the game on **my real Super Nintendo with an SD2SNES**, and it is validated on the **Mesen 2.2.1** emulator. These tests do not cover every console model, cartridge or adapter. bsnes and Snes9x have not been tested with Retro Rework.
+- **SD2SNES / FXPAK**: use the **up-to-date official firmware**. According to its author, it fixes how the **"In-game hook"** option behaves with this game. With an older official firmware or a modified firmware (for example sd2snes+), turn off "In-game hook" (Configuration menu → In-game settings): otherwise a horizontal band of the background (for example the stage 1 planet) can appear shifted. The original USA and Japanese versions show the same glitch: it is not caused by my patch.
 - The game requires **32 KB of battery-backed BW-RAM** (standard SA-1 header, handled by compatible emulators). The high score is saved there; on emulators it goes to the `.srm` file.
 - **Not compatible**: European and Japanese versions, ZSNES.
 
